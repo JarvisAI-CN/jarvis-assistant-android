@@ -1,0 +1,202 @@
+<resources>
+    <!-- App Info -->
+    <string name="app_name">贾维斯助手</string>
+    <string name="app_version">1.0.0</string>
+    <string name="app_description">智能语音助手，支持实时语音通话和任务管理</string>
+
+    <!-- Main Screen -->
+    <string name="btn_call">开始通话</string>
+    <string name="btn_call_connected">通话中...</string>
+    <string name="btn_end_call">结束通话</string>
+    <string name="btn_mute">静音</string>
+    <string name="btn_unmute">取消静音</string>
+    <string name="btn_speaker">扬声器</string>
+    <string name="btn_speaker_off">听筒</string>
+    <string name="btn_hold">保持</string>
+    <string name="btn_hold_off">取消保持</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">首页</string>
+    <string name="nav_call">通话</string>
+    <string name="nav_tasks">任务</string>
+    <string name="nav_files">文件</string>
+    <string name="nav_settings">设置</string>
+
+    <!-- Status -->
+    <string name="status_connecting">正在连接...</string>
+    <string name="status_connected">已连接</string>
+    <string name="status_disconnected">已断开</string>
+    <string name="status_connect_failed">连接失败</string>
+    <string name="status_call_ended">通话结束</string>
+    <string name="status_calling">正在呼叫...</string>
+
+    <!-- Calls -->
+    <string name="call_incoming">来电</string>
+    <string name="call_outgoing">呼出</string>
+    <string name="call_missed">未接电话</string>
+    <string name="call_duration">通话时长: %s</string>
+    <string name="call_recording">录音中</string>
+
+    <!-- Tasks -->
+    <string name="tasks_title">任务管理</string>
+    <string name="tasks_new">新任务</string>
+    <string name="tasks_in_progress">进行中</string>
+    <string name="tasks_completed">已完成</string>
+    <string name="tasks_failed">失败</string>
+    <string name="tasks_empty">暂无任务</string>
+    <string name="task_create">创建任务</string>
+    <string name="task_start">开始</string>
+    <string name="task_stop">停止</string>
+    <string name="task_pause">暂停</string>
+    <string name="task_resume">继续</string>
+    <string name="task_delete">删除</string>
+
+    <!-- Files -->
+    <string name="files_title">文件传输</string>
+    <string name="files_upload">上传</string>
+    <string name="files_download">下载</string>
+    <string name="files_delete">删除</string>
+    <string name="files_share">分享</string>
+    <string name="files_progress">%d%%</string>
+    <string name="files_success">传输成功</string>
+    <string name="files_failed">传输失败</string>
+    <string name="files_empty">暂无文件</string>
+
+    <!-- Settings -->
+    <string name="settings_title">设置</string>
+    <string name="settings_call">通话设置</string>
+    <string name="settings_speech">语音设置</string>
+    <string name="settings_appearance">外观设置</string>
+    <string name="settings_storage">存储设置</string>
+    <string name="settings_about">关于应用</string>
+
+    <!-- Call Settings -->
+    <string name="setting_auto_answer">自动接听</string>
+    <string name="setting_answer_delay">接听延迟</string>
+    <string name="setting_auto_mute">自动静音</string>
+    <string name="setting_call_recording">通话录音</string>
+    <string name="setting_voice_quality">音质设置</string>
+    <string name="setting_voice_quality_high">高音质</string>
+    <string name="setting_voice_quality_normal">标准音质</string>
+    <string name="setting_voice_quality_low">低音质</string>
+
+    <!-- Speech Settings -->
+    <string name="setting_recognition">语音识别</string>
+    <string name="setting_synthesis">语音合成</string>
+    <string name="setting_voice">语音选择</string>
+    <string name="setting_voice_speed">语速</string>
+    <string name="setting_voice_speed_slow">慢</string>
+    <string name="setting_voice_speed_normal">正常</string>
+    <string name="setting_voice_speed_fast">快</string>
+    <string name="setting_offline_recognition">离线识别</string>
+
+    <!-- Appearance Settings -->
+    <string name="setting_theme">主题</string>
+    <string name="setting_theme_light">浅色</string>
+    <string name="setting_theme_dark">深色</string>
+    <string name="setting_theme_system">跟随系统</string>
+    <string name="setting_language">语言</string>
+
+    <!-- Storage Settings -->
+    <string name="setting_download_location">下载位置</string>
+    <string name="setting_storage_usage">存储使用</string>
+    <string name="setting_clear_cache">清理缓存</string>
+
+    <!-- Permissions -->
+    <string name="permission_microphone">麦克风权限</string>
+    <string name="permission_microphone_desc">需要麦克风权限进行语音通话</string>
+    <string name="permission_storage">存储权限</string>
+    <string name="permission_storage_desc">需要存储权限进行文件传输</string>
+    <string name="permission_camera">相机权限</string>
+    <string name="permission_camera_desc">需要相机权限进行视频通话</string>
+    <string name="permission_notification">通知权限</string>
+    <string name="permission_notification_desc">需要通知权限接收来电提醒</string>
+
+    <!-- Notifications -->
+    <string name="notification_channel_call">通话通知</string>
+    <string name="notification_channel_tasks">任务通知</string>
+    <string name="notification_channel_files">文件通知</string>
+    <string name="notification_call_incoming">来电</string>
+    <string name="notification_call_missed">未接来电</string>
+    <string name="notification_call_ended">通话结束</string>
+    <string name="notification_task_completed">任务完成</string>
+    <string name="notification_file_complete">文件传输完成</string>
+
+    <!-- Errors -->
+    <string name="error_permission_required">需要权限才能继续</string>
+    <string name="error_connection">网络连接失败</string>
+    <string name="error_connection_timeout">连接超时</string>
+    <string name="error_speech_recognition">语音识别失败</string>
+    <string name="error_speech_synthesis">语音合成失败</string>
+    <string name="error_file_not_found">文件未找到</string>
+    <string name="error_file_upload">文件上传失败</string>
+    <string name="error_file_download">文件下载失败</string>
+    <string name="error_invalid_format">格式不支持</string>
+    <string name="error_no_records">暂无记录</string>
+
+    <!-- Empty States -->
+    <string name="empty_calls">暂无通话记录</string>
+    <string name="empty_tasks">暂无任务</string>
+    <string name="empty_files">暂无文件</string>
+
+    <!-- Actions -->
+    <string name="action_accept">接听</string>
+    <string name="action_reject">挂断</string>
+    <string name="action_create">创建</string>
+    <string name="action_save">保存</string>
+    <string name="action_cancel">取消</string>
+    <string name="action_retry">重试</string>
+    <string name="action_close">关闭</string>
+
+    <!-- Labels -->
+    <string name="label_calls">通话记录</string>
+    <string name="label_tasks">任务</string>
+    <string name="label_files">文件</string>
+    <string name="label_settings">设置</string>
+    <string name="label_date">日期</string>
+    <string name="label_time">时间</string>
+    <string name="label_duration">时长</string>
+    <string name="label_type">类型</string>
+    <string name="label_status">状态</string>
+    <string name="label_result">结果</string>
+    <string name="label_progress">进度</string>
+
+    <!-- Placeholders -->
+    <string name="placeholder_search">搜索...</string>
+    <string name="placeholder_task_name">任务名称</string>
+    <string name="placeholder_task_description">任务描述</string>
+    <string name="placeholder_file_name">文件名</string>
+
+    <!-- Toasts -->
+    <string name="toast_permission_required">请授予权限</string>
+    <string name="toast_call_started">通话开始</string>
+    <string name="toast_call_ended">通话结束</string>
+    <string name="toast_task_completed">任务完成</string>
+    <string name="toast_file_uploaded">文件上传成功</string>
+    <string name="toast_file_downloaded">文件下载成功</string>
+    <string name="toast_error_occurred">发生错误</string>
+
+    <!-- Privacy Policy -->
+    <string name="privacy_policy">隐私政策</string>
+    <string name="terms_of_service">服务条款</string>
+    <string name="privacy_summary">我们重视您的隐私安全。所有通话数据都会加密处理，您可以完全控制个人信息。</string>
+
+    <!-- Help -->
+    <string name="help_title">帮助与支持</string>
+    <string name="help_contact">联系我们</string>
+    <string name="help_feedback">意见反馈</string>
+    <string name="help_about">关于应用</string>
+    <string name="help_version">版本 %1$s</string>
+
+    <!-- Accessibility -->
+    <string name="accessibility_call_button">开始语音通话</string>
+    <string name="accessibility_mute_button">静音/取消静音</string>
+    <string name="accessibility_speaker_button">切换扬声器/听筒</string>
+    <string name="accessibility_end_call_button">结束通话</string>
+
+    <!-- Loading States -->
+    <string name="loading">加载中...</string>
+    <string name="loading_calls">加载通话记录...</string>
+    <string name="loading_tasks">加载任务...</string>
+    <string name="loading_files">加载文件...</string>
+</resources>
