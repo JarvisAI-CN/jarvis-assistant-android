@@ -71,13 +71,8 @@
     <application
         android:name=".core.App"
         android:allowBackup="true"
-        android:dataExtractionRules="@xml/data_extraction_rules"
-        android:fullBackupContent="@xml/backup_rules"
-        android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.VoipAssistant"
         android:usesCleartextTraffic="true"
         tools:targetApi="31">
 
@@ -86,7 +81,6 @@
                 android:name=".presentation.MainActivity"
                 android:exported="true"
                 android:label="@string/app_name"
-                android:theme="@style/Theme.VoipAssistant"
                 android:windowSoftInputMode="adjustResize">
                 <intent-filter>
                     <action android:name="android.intent.action.MAIN" />
@@ -106,7 +100,6 @@
             <activity
                 android:name=".features.call.ui.CallActivity"
                 android:exported="true"
-                android:theme="@style/Theme.VoipAssistant"
                 android:windowSoftInputMode="stateHidden">
                 <intent-filter>
                     <action android:name="com.assistant.voip.CALL" />
@@ -118,7 +111,6 @@
             <activity
                 android:name=".features.file.ui.FileTransmissionActivity"
                 android:exported="false"
-                android:theme="@style/Theme.VoipAssistant"
                 android:windowSoftInputMode="stateHidden">
             </activity>
 
@@ -126,7 +118,6 @@
             <activity
                 android:name=".features.task.ui.TaskManagementActivity"
                 android:exported="false"
-                android:theme="@style/Theme.VoipAssistant"
                 android:windowSoftInputMode="stateHidden">
             </activity>
 
