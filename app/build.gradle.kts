@@ -89,9 +89,6 @@ dependencies {
     kapt("com.google.dagger:hilt-android-compiler:2.48")
     implementation("androidx.hilt:hilt-navigation-compose:1.1.0")
 
-    // WebRTC
-    implementation("org.webrtc:google-webrtc:1.0.32006")
-
     // Networking
     implementation("com.squareup.retrofit2:retrofit:2.9.0")
     implementation("com.squareup.retrofit2:converter-gson:2.9.0")
@@ -130,12 +127,6 @@ dependencies {
 
     // Serialization
     implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.6.0")
-
-    // Speech Recognition
-    implementation("com.baidu.aip:speech:1.7.0")
-
-    // Audio Processing
-    implementation("com.github.yuriy-budiyev:codec:2.3.3")
 
     // Permissions
     implementation("com.google.accompanist:accompanist-permissions:0.34.0")
