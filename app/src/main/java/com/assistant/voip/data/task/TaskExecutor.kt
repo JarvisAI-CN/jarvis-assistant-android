@@ -5,6 +5,7 @@ import com.assistant.voip.domain.model.Task
 import com.assistant.voip.domain.model.TaskStatus
 import com.assistant.voip.domain.model.TaskType
 import io.reactivex.Observable
+import io.reactivex.ObservableEmitter
 import io.reactivex.schedulers.Schedulers
 import java.util.concurrent.ConcurrentHashMap
 import java.util.concurrent.Executors
@@ -85,7 +86,7 @@ class TaskExecutor private constructor() {
     private fun executeCallTask(
         task: Task,
         callback: TaskCallback?,
-        emitter: Observable emitter
+        emitter: ObservableEmitter<Task>
     ) {
         Log.d(TAG, "Executing call task: ${task.title}")
 
@@ -111,7 +112,7 @@ class TaskExecutor private constructor() {
     private fun executeMessageTask(
         task: Task,
         callback: TaskCallback?,
-        emitter: Observable emitter
+        emitter: ObservableEmitter<Task>
     ) {
         Log.d(TAG, "Executing message task: ${task.title}")
 
@@ -137,7 +138,7 @@ class TaskExecutor private constructor() {
     private fun executeFileTransferTask(
         task: Task,
         callback: TaskCallback?,
-        emitter: Observable emitter
+        emitter: ObservableEmitter<Task>
     ) {
         Log.d(TAG, "Executing file transfer task: ${task.title}")
 
@@ -163,7 +164,7 @@ class TaskExecutor private constructor() {
     private fun executeSettingTask(
         task: Task,
         callback: TaskCallback?,
-        emitter: Observable emitter
+        emitter: ObservableEmitter<Task>
     ) {
         Log.d(TAG, "Executing setting task: ${task.title}")
 
@@ -189,7 +190,7 @@ class TaskExecutor private constructor() {
     private fun executeCustomTask(
         task: Task,
         callback: TaskCallback?,
-        emitter: Observable emitter
+        emitter: ObservableEmitter<Task>
     ) {
         Log.d(TAG, "Executing custom task: ${task.title}")
 
