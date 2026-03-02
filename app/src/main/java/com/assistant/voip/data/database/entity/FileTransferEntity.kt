@@ -3,7 +3,7 @@ package com.assistant.voip.data.database.entity
 import androidx.room.Entity
 import androidx.room.PrimaryKey
 import com.assistant.voip.domain.model.FileTransferStatus
-import com.assistant.voip.domain.model.FileType
+import com.assistant.voip.domain.model.FileTransferType
 import java.util.Date
 
 @Entity(tableName = "file_transfers")
@@ -13,7 +13,7 @@ data class FileTransferEntity(
     val fileName: String,
     val filePath: String,
     val fileSize: Long,
-    val fileType: FileType,
+    val fileType: FileTransferType,
     val status: FileTransferStatus,
     val progress: Int,
     val uploadSpeed: Long,

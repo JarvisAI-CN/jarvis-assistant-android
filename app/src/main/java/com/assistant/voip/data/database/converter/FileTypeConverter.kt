@@ -1,21 +1,21 @@
 package com.assistant.voip.data.database.converter
 
 import androidx.room.TypeConverter
-import com.assistant.voip.domain.model.FileType
+import com.assistant.voip.domain.model.FileTransferType
 
 class FileTypeConverter {
 
     @TypeConverter
-    fun fromFileType(type: FileType): String {
+    fun fromFileType(type: FileTransferType): String {
         return type.name
     }
 
     @TypeConverter
-    fun toFileType(value: String): FileType {
+    fun toFileType(value: String): FileTransferType {
         return try {
-            FileType.valueOf(value)
+            FileTransferType.valueOf(value)
         } catch (e: IllegalArgumentException) {
-            FileType.OTHER
+            FileTransferType.OTHER
         }
     }
 }
