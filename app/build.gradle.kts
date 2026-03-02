@@ -56,6 +56,7 @@ android {
 
     composeOptions {
         kotlinCompilerExtensionVersion = "1.5.6"
+        suppressKotlinVersionCompatibilityCheck = true
     }
 
     packaging {
